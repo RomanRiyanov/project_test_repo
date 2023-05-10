@@ -14,7 +14,7 @@ yarn dev
 
 ## Задание
 
-Откройте макет  [Макет]([http://localhost:3000](https://www.figma.com/file/8PT8UblejU7btTC66UU12a/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B-(Copy)?type=design&t=wnnofDvpwGDy5k8H-0)).
+Откройте макет  [Макет](https://www.figma.com/file/8PT8UblejU7btTC66UU12a/%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B-(Copy)?type=design&t=wnnofDvpwGDy5k8H-0).
 
 В рамках тестового вам сверстать данный макет
 В шаблоне проекта уже существуют некоторые компоненты можете переиспользовать и стилизовать нужный из них
