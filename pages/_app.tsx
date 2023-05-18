@@ -2,6 +2,7 @@ import type { AppProps } from 'next/app'
 import { Provider } from 'react-redux'
 
 import { Layout } from 'features'
+import { Main } from 'components/Main/Main'
 
 import { store } from 'store'
 import { ModalProvider } from 'shared/hocs/ModalContext'
@@ -13,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Provider store={store}>
       <ModalProvider>
         <Layout>
-          <Component {...pageProps} />
+          <Main/>
         </Layout>
       </ModalProvider>
     </Provider>

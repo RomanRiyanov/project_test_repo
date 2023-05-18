@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #03073C;
+    display: inline-block;
+    max-width: 500px;
+}
+
+.ellips {
+    padding: 0 3px 3px;
+    outline: 1px solid #D44B4B;
+    border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+    .subtitle {
+        font-size: 45px;
+        line-height: 60px;
+        max-width: 1000px;
+        margin-top: 170px;
+
+    }
+}

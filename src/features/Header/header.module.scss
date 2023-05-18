@@ -1,6 +1,91 @@
 @use "styles/style" as *;
 
 .header {
-  background-color: #464646;
-  color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 20px 10px;
+  background-color: white;
+  width: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.phone {
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.button {
+  width: 274px;
+  height: 56px;
+  margin-left: 10px;
+  border: 1px solid #121761;
+  border-radius: 10px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  display: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (min-width: 1024px) {
+  .link {
+    display: flex;
+  }
+  .header {
+    min-height: 136px;
+    padding: 5px 160px 15px 185px;
+    gap: 10px;
+  }
+  .logo {
+    scale: 2.5;
+    margin-right: 100px;
+  }
+  .phone {
+    position: relative;
+    left: 10px;
+    scale: 1.7;
+  }
+  .number {
+    position: relative;
+    left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    min-width: 170px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .logo {
+    margin-right: 200px;
+  }
+  .header {
+    min-height: 136px;
+    padding: 5px 260px 0 285px;
+    gap: 10px;
+  }
 }
